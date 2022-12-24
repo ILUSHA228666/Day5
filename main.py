@@ -1,14 +1,14 @@
 
 
-def fir ():
-    print( " /\\")
-    print(" /||\\")
-    print("/||||\\")
-    print("  ||")
+def fir (num):
+    print("   /\  "*num)
+    print("  /||\  "*num)
+    print(" /||||\"*num)
+    print("   ||"*num)
 
 
 def main ():
-    fir()
+    fir(3)
 
 
 
